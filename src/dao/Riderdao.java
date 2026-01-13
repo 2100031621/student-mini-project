@@ -19,7 +19,7 @@ public class Riderdao {
 			ps.setInt(3, r.getPhone());
 			ps.setString(4, r.getStatus());
 			ps.executeUpdate();
-			System.out.println("Done");
+			System.out.println("Done111");
 		}	
 		catch(Exception e)
 		{
